@@ -9,9 +9,5 @@ export default abstract class MapBaseLayer {
     this.Id = Id;
     this.Options = Options;
   }
-  InitLayer() {
-    this.InitLayer();
-  }
-
-  private InitRender() {}
+  InitLayer() {}
 }
