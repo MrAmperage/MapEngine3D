@@ -1,0 +1,23 @@
+{
+  "name": "mapengine3d",
+  "version": "0.0.0.0.1a",
+  "description": "Cartographic Bible Library with 3D support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrAmperage/MapEngine3D.git"
+  },
+  "keywords": [
+    "map"
+  ],
+  "author": "Mr.Amperage",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0"
+  }
+}
