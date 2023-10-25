@@ -3,7 +3,7 @@ module.exports = {
     extensions: ['.ts'],
   },
   mode: 'production',
-  entry: './MapEngine3D/MapEngine3D.ts',
+  entry: './main.ts',
   output: {
     filename: 'bundle.js',
   },

@@ -1,16 +1,11 @@
 import MapEngine3D from '../MapEngine3D/MapEngine3D';
-import { BaseLayerOptions } from './MapBaseLayerTypes';
+import { MapBaseLayerOptions } from './MapBaseLayerTypes';
 
 /*Базовый слой для карты*/
 export default abstract class MapBaseLayer {
   Id: string;
-  Options: BaseLayerOptions;
-  constructor(
-    Id: string,
-    Options: BaseLayerOptions,
-    //TODO доставить сюда через DI
-    private MapEngine3D: MapEngine3D
-  ) {
+  Options: MapBaseLayerOptions;
+  constructor(Id: string, Options: MapBaseLayerOptions) {
     this.Id = Id;
     this.Options = Options;
   }
