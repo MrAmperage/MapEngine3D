@@ -1,13 +1,13 @@
-import { BaseLayerOptions } from './MapBaseLayerTypes';
+import { MapBaseLayerOptions } from './MapBaseLayerTypes';
 
 /*Базовый слой для карты*/
 export default abstract class MapBaseLayer {
-  constructor(Id: string, Options: BaseLayerOptions) {
+  constructor(Id: string, Options: MapBaseLayerOptions) {
     this.Id = Id;
     this.Options = Options;
   }
   private Id: string;
-  private Options: BaseLayerOptions;
+  private Options: MapBaseLayerOptions;
 
   get GetId() {
     return this.Id;
